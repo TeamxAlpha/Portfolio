@@ -1,8 +1,6 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
@@ -25,10 +23,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Train&Gain"
+              description="AI-powered fitness mobile application built with React Native, incorporating TensorFlow.js and MediaPipe for real-time human pose detection during workouts. The app provides users with personalized exercise plans, posture correction feedback, and progress tracking to enhance accuracy, safety, and overall training effectiveness."
+              ghLink="https://github.com/TeamxAlpha/TrainnGain--AI-based-Fitness-Mobile-app"
             />
           </Col>
 
@@ -36,10 +33,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Movie Recommender System"
+              description="A movie recommendation system that provides personalized movie suggestions based on user preferences and viewing history. The system utilizes collaborative filtering and content-based filtering techniques to analyze user behavior and movie attributes, delivering accurate and relevant recommendations to enhance the user experience."
+              ghLink="https://github.com/TeamxAlpha/Movie-Recommended-System"
             />
           </Col>
 
@@ -47,32 +43,20 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
+              title="Budget Tracker App"
+              description=" A budget tracker app built using React.js for the frontend and MongoDB for the backend. The app allows users to track their income and expenses, categorize transactions, and visualize their financial data through charts and graphs. It provides a user-friendly interface for managing personal finances effectively."
+              ghLink="https://github.com/TeamxAlpha/budgettracker-Reactjs-Mongodb"
+              demoLink="https://budgettracker-inky.vercel.app/"
+            /> 
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Booking System"
+              description="A web-based booking system designed to streamline reservations and scheduling for various services. Built with React.js and Node.js, it allows users to view available slots, make bookings, and receive confirmation notifications. Administrators can manage bookings, update availability, and monitor user activity through an intuitive dashboard."
+              ghLink="https://github.com/TeamxAlpha/bookingsystem"
             />
           </Col>
 
@@ -80,11 +64,9 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Skin Detection and Product Recommendation"
+              description="A web application that analyzes user-uploaded skin images to detect skin types and conditions using deep learning models. Based on the analysis, it recommends personalized skincare products tailored to the user's unique skin profile. Built with React.js for the frontend and a Python-based backend for image processing and recommendation logic."
+              ghLink="https://github.com/TeamxAlpha/Aesthetic-Skin-backend"
             />
           </Col>
         </Row>
